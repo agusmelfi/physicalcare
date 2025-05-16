@@ -161,10 +161,10 @@
   
       emailjs.sendForm('service_34s96se', 'template_tw28hwe', this)
         .then(() => {
-          alert('Mensaje enviado con éxito 😊');
+          alert('Message sent! Stay tuned😊');
           form.reset();
         }, (error) => {
-          alert('Error al enviar el mensaje 😢');
+          alert('Error sending message, try again! 😢');
           console.error('EmailJS error:', error);
         });
     });
